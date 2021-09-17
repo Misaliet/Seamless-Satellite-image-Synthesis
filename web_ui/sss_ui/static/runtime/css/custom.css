@@ -1,0 +1,61 @@
+.ui.fluid.image {
+    width: 512px;
+    height: 512px;
+}
+
+.ui.rounded.image {
+    width: 512px;
+    height: 512px;
+}
+
+.image {
+    width: 512px;
+    height: 512px;
+}
+
+.large.image {
+    width: 1024px;
+    height: 1024px;
+}
+
+.column > .ui.segment.image {
+    width: 540px;
+    height: 540px;
+}
+
+.ui.grid {
+    position: relative;
+}
+
+.ui.grid > .fourteen.wide.column.hide {
+    position: absolute;
+    width: 1052px;
+    height: 1052px;
+    z-index:999;
+    display:none;
+}
+
+.fourteen.wide.column.hide > .ui.segment.image.hide {
+    /* position: absolute; */
+    width: 1052px;
+    height: 1052px;
+}
+
+.column > .ui.segment.toolbox {
+    padding-left: 40px;
+    height: 540px;
+}
+
+.column > .ui.segment > .ui.vertical.segment {
+    width: 36px;
+    height: 64px;
+}
+
+.ui.container.blank {
+    margin-bottom: 14px;
+}
+
+/* .ui.container.toolbox > .ui.red.circular.button{
+    width: 50px;
+    height: 50px;
+} */

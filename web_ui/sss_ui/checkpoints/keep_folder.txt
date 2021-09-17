@@ -1,0 +1,7 @@
+checkpoints/z1/latest_net_E.pth
+checkpoints/z1/latest_net_G.pth
+checkpoints/z2_cg/latest_net_G.pth
+checkpoints/z3_cg/latest_net_G.pth
+checkpoints/z1sn/latest_net_G.pth
+checkpoints/z2sn/latest_net_G.pth
+checkpoints/z3sn/latest_net_G.pth

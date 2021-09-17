@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SSS</title>
+        <link rel="stylesheet" href="{% static 'runtime/css/semantic.css' %}" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="{% static 'runtime/css/custom.css' %}" media="screen" title="no title" charset="utf-8">
+        <script type="text/javascript" src="{% static 'runtime/js/runtime.js' %}"></script>
+    </head>
+    <body>
+
+        <div class="ui red inverted top menu borderless">
+            <div class="header item">
+                 <a class="ui inverted circular button">SSS</a>
+            </div>
+            {% comment %} <div class="right menu">
+                <div class="item">
+                    <h5 class="ui inverted header">
+                        <div class="ui mini circular image">
+                            <img src="{% static 'runtime/images/misc/misaliet.jpg' %}" alt="">
+                        </div>
+                        <span>Light</span>
+                    </h5>
+                </div>
+            </div> {% endcomment %}
+        </div>
+        
+        <div class="ui red segment">
+            {% comment %} <div class="ui two column grid">
+                <div class="column">
+                    <div class="ui segment">
+                        <img id="map" class="image" src="{% static 'images/A/A.png' %}">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui segment">
+                        <img id="satellite" class="image" src="{% static 'images/B/B.png' %}">
+                    </div>
+                </div>
+            </div> {% endcomment %}
+            <div class="ui grid">
+                <div class="two wide column">
+                    <div class="ui segment toolbox">
+                        <div class="ui vertical segment">
+                            <button class="ui red centered icon button">
+                                <i class="edit icon" onclick="random()"></i>
+                            </button>
+                        </div>
+                        <div class="ui vertical segment">
+                            <button class="ui red icon button">
+                                <i class="redo icon" onclick="restore()"></i>
+                            </button>
+                        </div>
+                        <div class="ui vertical segment">
+                            <button class="ui red icon button">
+                                <i class="random icon"></i>
+                            </button>
+                        </div>
+                        <div class="ui vertical segment">
+                            <button class="ui red icon button">
+                                <i class="save icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="fourteen wide column hide" class="fourteen wide column hide">
+                    <div class="ui segment image hide">
+                        <img id="large" class="large image" src="{% static 'runtime/images/B/B_b.png' %}" ondragstart="return false;" onmousewheel="return false;" onclick="showLarge()">
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <div class="ui segment image">
+                        <img id="map" class="image" src="{% static 'runtime/images/A/A.png' %}" ondragstart="return false;" onmousewheel="return false;">
+                        {% comment %} <img id="map" class="image" src="{% static 'runtime/images/z1c.png' %}" ondragstart="return false;" onmousewheel="return false;"> {% endcomment %}
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <div class="ui segment image">
+                        <img id="satellite" class="image" src="{% static 'runtime/images/B/B.png' %}" ondragstart="return false;" onmousewheel="return false;" onclick="showLarge()">
+                        {% comment %} <img id="satellite" class="image" src="{% static 'runtime/images/z1f.png' %}" ondragstart="return false;" onmousewheel="return false;" onclick="showLarge()"> {% endcomment %}
+                    </div>
+                </div>
+            </div>
+            <div class="ui grid">
+                <div class="two wide column"></div>
+                <div class="fourteen wide column">
+                    <div class="ui segment">
+                        <div class="ui container">
+                            <button class="ui red icon button" onclick="left()">
+                                <i class="left arrow icon"></i>
+                            </button>
+                            <button class="ui red icon button" onclick="up()">
+                                <i class="up arrow icon"></i>
+                            </button>
+                            <button class="ui red icon button" onclick="down()">
+                                <i class="down arrow icon"></i>
+                            </button>
+                            <button class="ui red icon button" onclick="right()">
+                                <i class="right arrow icon"></i>
+                            </button>
+                        </div>
+                        <div class="ui container blank">
+                        </div>
+                        <div class="ui container">
+                            <button type="button" name="button" class="ui red button" onclick="transfer()">transfer</button>
+                            <button type="button" name="button" class="ui red button" onclick="zoomIn()">zoom in</button>
+                            <button type="button" name="button" class="ui red button" onclick="superResolution()">match</button>
+                            <button type="button" name="button" class="ui red button" onclick="zoomOut()">zoom out</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="ui vertical padded red segment">
+            <div class="ui grid">
+                <div class="eight wide column">
+                </div>
+                <div class="four wide column">
+                    <div class="ui vertical text menu">
+                        <div class="item">
+                            <h3 class="ui  header">School of Computing,</h3>
+                        </div>
+                        <div class="item">
+                            <h3 class="ui  header">Universit of Leeds</h3>
+                        </div>
+                        <div class="item">
+                            Address : Leeds, West Yorkshire, UK
+                        </div>
+                        <div class="item">
+                            Postcode : LS29JT
+                        </div>
+                    </div>
+                </div>
+
+                <div class="four wide column">
+                    <div class="ui vertical text menu">
+                        <div class="item">
+                            Designed by
+                        </div>
+                        <div class="item">
+                            <h3 class="ui header logo">Jialin Zhu</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
