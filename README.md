@@ -6,7 +6,13 @@ This the code for our paper:
 
 The code of our models borrows heavily from the [BicycleGAN](https://github.com/junyanz/BicycleGAN) repository and [SPADE](https://github.com/NVlabs/SPADE) repository. Some missing description can be found in the original repository.
 
+## Results illustrate
+[![Watch the video](https://img.youtube.com/vi/-oLKVdBQQKI/hqdefault.jpg)](https://www.youtube.com/watch?v=-oLKVdBQQKI)
+
+
 ## web UI system
+[![Watch the video](https://img.youtube.com/vi/JVchd1pifvA/hqdefault.jpg)](https://www.youtube.com/watch?v=JVchd1pifvA)
+
 - The UI system is developed by web framework - Django.
 - Clone the code and `cd web_ui`
 - Install required packages(mainly Django 3.1 and PyTorch 1.7.1)
