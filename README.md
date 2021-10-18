@@ -2,7 +2,7 @@
 
 This the code for our paper: 
 
-[**Seamless-Satellite-image-Synthesis**](https://vcg.leeds.ac.uk/projects/sss/) by [Jialin Zhu](https://vcg.leeds.ac.uk/profiles/jialin-zhu/) and [Tom Kelly](https://vcg.leeds.ac.uk/profiles/twak/).
+[**Seamless Satellite-image Synthesis**](https://vcg.leeds.ac.uk/projects/sss/) by [Jialin Zhu](https://vcg.leeds.ac.uk/profiles/jialin-zhu/) and [Tom Kelly](https://vcg.leeds.ac.uk/profiles/twak/).
 
 The code of our models borrows heavily from the [BicycleGAN](https://github.com/junyanz/BicycleGAN) repository and [SPADE](https://github.com/NVlabs/SPADE) repository. Some missing description can be found in the original repository.
 
