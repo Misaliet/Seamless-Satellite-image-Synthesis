@@ -1,8 +1,7 @@
 # Seamless Satellite-image Synthesis
+by [Jialin Zhu](https://vcg.leeds.ac.uk/profiles/jialin-zhu/) and [Tom Kelly](https://vcg.leeds.ac.uk/profiles/twak/).
 
-[**Project site**](https://vcg.leeds.ac.uk/projects/sss/) by [Jialin Zhu](https://vcg.leeds.ac.uk/profiles/jialin-zhu/) and [Tom Kelly](https://vcg.leeds.ac.uk/profiles/twak/).
-
-The code of our models borrows heavily from the [BicycleGAN](https://github.com/junyanz/BicycleGAN) repository and [SPADE](https://github.com/NVlabs/SPADE) repository. Some missing description can be found in the original repository.
+[**Project site**](https://vcg.leeds.ac.uk/projects/sss/). The code of our models borrows heavily from the [BicycleGAN](https://github.com/junyanz/BicycleGAN) repository and [SPADE](https://github.com/NVlabs/SPADE) repository. Some missing description can be found in the original repository.
 
 ## Results video
 [![Watch the video](https://img.youtube.com/vi/-oLKVdBQQKI/hqdefault.jpg)](https://www.youtube.com/watch?v=-oLKVdBQQKI)
