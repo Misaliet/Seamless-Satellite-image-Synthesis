@@ -19,7 +19,7 @@ smodel1, sopt1 = init_model2("z1sn")
 smodel2, sopt2 = init_model2("z2sn")
 smodel3, sopt3 = init_model2("z3sn")
 
-z_sample = torch.randn(1, opt.z_dim, dtype=torch.float32)
+z_sample = torch.randn(1, opt.z_dim, dtype=torch.float32).cuda()
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent
 path_buffer_B = os.path.join(BASE_DIR, "static", "runtime/images/B/B_b.png")
