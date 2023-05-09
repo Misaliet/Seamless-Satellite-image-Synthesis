@@ -22,7 +22,7 @@ The code of our models borrows heavily from the [BicycleGAN](https://github.com/
 - Access `127.0.0.1/index` thourough a web browser.
 - Start play with the UI system
 
-### Pre-trained weights are available here: [Mega link](https://mega.nz/file/MtRhUCIQ#wBbUd4SGL2LLj5n2iQCWu5XQt5iRGicbg0p0PeQTpSA)
+### Pre-trained weights are available here: [Mega link](https://mega.nz/file/JlIn0DZY#gNndc-iH4Zx3V8vAYKrJrotmNJS5y2K9xW9Uvy6O-3k)
 
 We provide some preset map data, if you want more extensive or other map data, you need to replace the map data yourself. There are some features that have not yet been implemented. Please report bugs as github issues.
 
