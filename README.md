@@ -4,7 +4,7 @@ by [Jialin Zhu](https://vcg.leeds.ac.uk/profiles/jialin-zhu/) and [Tom Kelly](ht
 [Project site](https://vcg.leeds.ac.uk/projects/sss/) and [additional material](https://drive.google.com/drive/folders/1lnqaRDQQ2L3-0ERPE58qAynV55wRLx8L).
 The code of our models borrows heavily from the [BicycleGAN](https://github.com/junyanz/BicycleGAN) repository and [SPADE](https://github.com/NVlabs/SPADE) repository. Some missing description can be found in the original repository.
 
-If you are not a programmer or you do not understand Deep Learning, I suggest you read my reply in this [issue](https://github.com/Misaliet/Seamless-Satellite-image-Synthesis/issues/4). This is not a engineering project that can be directly used to generate infinite satellite images. first of all, due to copyright restrictions, I cannot provide enough map images...
+(If you are not a programmer or you do not understand Deep Learning, I suggest you read my reply in this [issue](https://github.com/Misaliet/Seamless-Satellite-image-Synthesis/issues/4). This is not a engineering project that can be directly used to generate infinite satellite images. first of all, due to copyright restrictions, I cannot provide enough map images...
 
 [![Watch the video](https://github.com/Misaliet/Seamless-Satellite-image-Synthesis/blob/main/image1604.png?raw=true)](https://www.youtube.com/watch?v=-oLKVdBQQKI)
 
